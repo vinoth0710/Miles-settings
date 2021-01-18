@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:settings_ui/pages/edit_profile.dart';
 
 class SettingsPage extends StatefulWidget {
   @override
