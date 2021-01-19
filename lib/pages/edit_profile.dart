@@ -194,7 +194,7 @@ GestureDetector buildAccountOptionRow(BuildContext context, String title) {
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w500,
-              color: Colors.black,
+              color: Colors.grey[800],
             ),
           ),
           Icon(
