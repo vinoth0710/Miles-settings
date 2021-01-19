@@ -36,18 +36,6 @@ class _EditProfilePageState extends State<EditProfilePage> {
           ),
           onPressed: () {},
         ),
-        actions: [
-          IconButton(
-            icon: Icon(
-              Icons.settings,
-              color: Colors.green,
-            ),
-            onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (BuildContext context) => SettingsPage()));
-            },
-          ),
-        ],
       ),
       body: Container(
         padding: EdgeInsets.only(left: 16, top: 5, right: 16),
@@ -99,14 +87,15 @@ class _EditProfilePageState extends State<EditProfilePage> {
                 children: [
                   Icon(
                     Icons.person,
-                    color: Colors.grey,
+                    size: 18,
+                    color: Colors.green,
                   ),
                   Text(
-                    "Admin",
+                    " Admin",
                     style: TextStyle(
-                        fontSize: 17,
+                        fontSize: 15,
                         color: Colors.grey[600],
-                        fontWeight: FontWeight.bold),
+                        fontWeight: FontWeight.w500),
                     textAlign: TextAlign.center,
                   ),
                 ],
@@ -117,18 +106,27 @@ class _EditProfilePageState extends State<EditProfilePage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    "pattarai@gmail.com",
-                    style: TextStyle(fontSize: 16, color: Colors.grey[600]),
-                    textAlign: TextAlign.center,
-                  ),
-                  SizedBox(
-                    width: 8,
+                  OutlineButton(
+                    padding: EdgeInsets.symmetric(horizontal: 3, vertical: 3),
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20)),
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (BuildContext context) => SettingsPage()));
+                    },
+                    borderSide: BorderSide(
+                      color: Colors.green, //Color of the border
+                      style: BorderStyle.solid, //Style of the border
+                      width: 0.6, //width of the border
+                    ),
+                    child: Text("Edit Profile",
+                        style: TextStyle(
+                            fontSize: 11,
+                            fontWeight: FontWeight.w300,
+                            letterSpacing: 1.2,
+                            color: Colors.black)),
                   ),
                 ],
-              ),
-              SizedBox(
-                height: 35,
               ),
               buildAccountOptionRow(context, "Mile Wallet"),
               buildAccountOptionRow(context, "Rides"),
@@ -193,7 +191,7 @@ GestureDetector buildAccountOptionRow(BuildContext context, String title) {
           Text(
             title,
             style: TextStyle(
-              fontSize: 18,
+              fontSize: 16,
               fontWeight: FontWeight.w500,
               color: Colors.black54,
             ),
