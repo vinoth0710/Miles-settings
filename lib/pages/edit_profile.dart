@@ -199,7 +199,7 @@ GestureDetector buildAccountOptionRow(BuildContext context, String title) {
           ),
           Icon(
             Icons.arrow_forward_ios,
-            color: Colors.black54,
+            color: Colors.grey[700],
           ),
         ],
       ),
