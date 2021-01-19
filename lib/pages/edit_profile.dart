@@ -91,10 +91,11 @@ class _EditProfilePageState extends State<EditProfilePage> {
                     color: Colors.green,
                   ),
                   Text(
-                    " Admin",
+                    "Admin",
                     style: TextStyle(
                         fontSize: 15,
                         color: Colors.grey[600],
+                        letterSpacing: 0.9,
                         fontWeight: FontWeight.w500),
                     textAlign: TextAlign.center,
                   ),
@@ -193,12 +194,12 @@ GestureDetector buildAccountOptionRow(BuildContext context, String title) {
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w500,
-              color: Colors.black54,
+              color: Colors.black,
             ),
           ),
           Icon(
             Icons.arrow_forward_ios,
-            color: Colors.grey,
+            color: Colors.black54,
           ),
         ],
       ),
