@@ -28,7 +28,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
           style: TextStyle(color: Colors.black),
         ),
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-        elevation: 0,
+        elevation: 0.9,
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back,
@@ -84,25 +84,6 @@ class _EditProfilePageState extends State<EditProfilePage> {
                                 "https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png",
                               ))),
                     ),
-                    Positioned(
-                        bottom: 0,
-                        right: 0,
-                        child: Container(
-                          height: 40,
-                          width: 40,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                              width: 4,
-                              color: Theme.of(context).scaffoldBackgroundColor,
-                            ),
-                            color: Colors.green,
-                          ),
-                          child: Icon(
-                            Icons.edit,
-                            color: Colors.white,
-                          ),
-                        )),
                   ],
                 ),
               ),

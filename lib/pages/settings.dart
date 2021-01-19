@@ -13,7 +13,7 @@ class _SettingsPageState extends State<SettingsPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-        elevation: 0,
+        elevation: 0.9,
         title: Text(
           'Edit Profile',
           style: TextStyle(color: Colors.black),
