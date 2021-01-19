@@ -170,7 +170,7 @@ GestureDetector buildAccountOptionRow(BuildContext context, String title) {
             return AlertDialog(
               title: Text(title),
               content: Column(
-                mainAxisSize: MainAxisSize.min,
+                mainAxisSize: MainAxisSize.max,
                 children: [
                   Text(""),
                 ],
