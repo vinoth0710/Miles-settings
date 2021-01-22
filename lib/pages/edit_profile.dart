@@ -129,12 +129,68 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   ),
                 ],
               ),
-              buildAccountOptionRow(context, "Mile Wallet"),
-              buildAccountOptionRow(context, "Rides"),
-              buildAccountOptionRow(context, "Feedback & Help"),
-              buildAccountOptionRow(context, "Contact us"),
-              buildAccountOptionRow(context, "About"),
-              buildAccountOptionRow(context, "Log Out"),
+              const SizedBox(height: 20.0),
+              ListTile(
+                title: Text("Languages",
+                    style: TextStyle(
+                        fontSize: 11,
+                        fontWeight: FontWeight.w300,
+                        letterSpacing: 1.2,
+                        color: Colors.black)),
+                trailing: Icon(
+                  Icons.keyboard_arrow_right,
+                  color: Colors.grey.shade400,
+                ),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text("Profile Settings",
+                    style: TextStyle(
+                        fontSize: 11,
+                        fontWeight: FontWeight.w300,
+                        letterSpacing: 1.2,
+                        color: Colors.black)),
+                trailing: Icon(
+                  Icons.keyboard_arrow_right,
+                  color: Colors.grey.shade400,
+                ),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text("Profile Settings",
+                    style: TextStyle(
+                        fontSize: 11,
+                        fontWeight: FontWeight.w300,
+                        letterSpacing: 1.2,
+                        color: Colors.black)),
+                trailing: Icon(
+                  Icons.keyboard_arrow_right,
+                  color: Colors.grey.shade400,
+                ),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text("Profile Settings",
+                    style: TextStyle(
+                        fontSize: 11,
+                        fontWeight: FontWeight.w300,
+                        letterSpacing: 1.2,
+                        color: Colors.black)),
+                trailing: Icon(
+                  Icons.keyboard_arrow_right,
+                  color: Colors.grey.shade400,
+                ),
+                onTap: () {},
+              ),
+              ListTile(
+                title: Text("Logout",
+                    style: TextStyle(
+                        fontSize: 11,
+                        fontWeight: FontWeight.w300,
+                        letterSpacing: 1.2,
+                        color: Colors.black)),
+                onTap: () {},
+              ),
               SizedBox(
                 height: 30,
               ),
