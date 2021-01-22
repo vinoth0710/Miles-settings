@@ -131,7 +131,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
               ),
               const SizedBox(height: 20.0),
               ListTile(
-                title: Text("Languages",
+                title: Text("About",
                     style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -140,10 +140,12 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   Icons.keyboard_arrow_right,
                   color: Colors.grey.shade700,
                 ),
-                onTap: () {},
+                onTap: () {
+                  /*Insert your code to next screen here*/
+                },
               ),
               ListTile(
-                title: Text("Profile Settings",
+                title: Text("Terms of Services",
                     style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -152,10 +154,12 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   Icons.keyboard_arrow_right,
                   color: Colors.grey.shade700,
                 ),
-                onTap: () {},
+                onTap: () {
+                  /*Insert your code to next screen here*/
+                },
               ),
               ListTile(
-                title: Text("Profile Settings",
+                title: Text("Contact Us",
                     style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -164,10 +168,12 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   Icons.keyboard_arrow_right,
                   color: Colors.grey.shade700,
                 ),
-                onTap: () {},
+                onTap: () {
+                  /*Insert your code to next screen here*/
+                },
               ),
               ListTile(
-                title: Text("Profile Settings",
+                title: Text("Feedback & Help",
                     style: TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
@@ -176,7 +182,9 @@ class _EditProfilePageState extends State<EditProfilePage> {
                   Icons.keyboard_arrow_right,
                   color: Colors.grey.shade700,
                 ),
-                onTap: () {},
+                onTap: () {
+                  /*Insert your code to next screen here*/
+                },
               ),
               ListTile(
                 title: Text("Logout",
@@ -184,10 +192,16 @@ class _EditProfilePageState extends State<EditProfilePage> {
                         fontSize: 15,
                         fontWeight: FontWeight.w400,
                         color: Colors.black)),
-                onTap: () {},
+                trailing: Icon(
+                  Icons.keyboard_arrow_right,
+                  color: Colors.grey.shade700,
+                ),
+                onTap: () {
+                  /*Insert your code to next screen here*/
+                },
               ),
               SizedBox(
-                height: 30,
+                height: 27,
               ),
               Center(
                 child: RaisedButton(
