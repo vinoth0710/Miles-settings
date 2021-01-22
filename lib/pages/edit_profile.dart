@@ -133,61 +133,56 @@ class _EditProfilePageState extends State<EditProfilePage> {
               ListTile(
                 title: Text("Languages",
                     style: TextStyle(
-                        fontSize: 11,
-                        fontWeight: FontWeight.w300,
-                        letterSpacing: 1.2,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
                         color: Colors.black)),
                 trailing: Icon(
                   Icons.keyboard_arrow_right,
-                  color: Colors.grey.shade400,
+                  color: Colors.grey.shade700,
                 ),
                 onTap: () {},
               ),
               ListTile(
                 title: Text("Profile Settings",
                     style: TextStyle(
-                        fontSize: 11,
-                        fontWeight: FontWeight.w300,
-                        letterSpacing: 1.2,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
                         color: Colors.black)),
                 trailing: Icon(
                   Icons.keyboard_arrow_right,
-                  color: Colors.grey.shade400,
+                  color: Colors.grey.shade700,
                 ),
                 onTap: () {},
               ),
               ListTile(
                 title: Text("Profile Settings",
                     style: TextStyle(
-                        fontSize: 11,
-                        fontWeight: FontWeight.w300,
-                        letterSpacing: 1.2,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
                         color: Colors.black)),
                 trailing: Icon(
                   Icons.keyboard_arrow_right,
-                  color: Colors.grey.shade400,
+                  color: Colors.grey.shade700,
                 ),
                 onTap: () {},
               ),
               ListTile(
                 title: Text("Profile Settings",
                     style: TextStyle(
-                        fontSize: 11,
-                        fontWeight: FontWeight.w300,
-                        letterSpacing: 1.2,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
                         color: Colors.black)),
                 trailing: Icon(
                   Icons.keyboard_arrow_right,
-                  color: Colors.grey.shade400,
+                  color: Colors.grey.shade700,
                 ),
                 onTap: () {},
               ),
               ListTile(
                 title: Text("Logout",
                     style: TextStyle(
-                        fontSize: 11,
-                        fontWeight: FontWeight.w300,
-                        letterSpacing: 1.2,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w400,
                         color: Colors.black)),
                 onTap: () {},
               ),
